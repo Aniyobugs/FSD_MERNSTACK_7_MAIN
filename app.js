@@ -14,4 +14,4 @@ app.use('/api',productRoutes)
 app.use('/api',userRoutes)
 app.listen(port,()=>{
     console.log(`SERVER IS UP AND RUNNING ${port}`)
-});
+})
